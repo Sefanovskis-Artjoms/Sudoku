@@ -85,12 +85,12 @@ body {
 }
 
 .sudoku-grid input:nth-child(3n):not(:nth-child(9n)) {
-  border-right: 2px solid #1f1f1f;
+  border-right: 4px solid #1f1f1f;
 }
 
 .sudoku-grid input:nth-child(n + 19):nth-child(-n + 27),
 .sudoku-grid input:nth-child(n + 46):nth-child(-n + 54) {
-  border-bottom: 2px solid #1f1f1f;
+  border-bottom: 4px solid #1f1f1f;
 }
 
 .inputfield {
